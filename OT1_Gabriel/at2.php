@@ -1,6 +1,14 @@
 <?php
-$num1 = 2;
-$num2 = 4;
-$resultado = $num2 / $num1;
-echo "$resultado"
+$num = 5;
+
+for ($i=0; $i < $num; $i++) { 
+    $res = $num % 2;
+}
+
+if ($res == 0) 
+{
+    echo "par";
+}else{
+    echo "impar";
+}
 ?>

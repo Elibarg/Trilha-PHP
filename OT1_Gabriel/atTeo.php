@@ -14,5 +14,59 @@ Gabriel Elesbão
     combinar ou inverter expressões booleanas (que retornam
     true ou false)
     dentro de estruturas de controle como if
+3.
+    A tipagem dinâmica significa que o tipo da variável é inferido automaticamente pelo valor atribuído.
+    Exemplo:
+
+    
+    $variavel = "Texto"; // Agora é string  
+    $variavel = 10;      // Agora é inteiro
+4.
+    O if é usado para executar um bloco de código se uma condição for verdadeira.
+    Exemplo:
+
+    
+    if ($idade >= 18) {
+        echo "Maior de idade";
+    }
+5.
+    O operador de módulo retorna o resto da divisão entre dois números.
+    É útil para verificar se um número é par ou ímpar:
+
+    
+    if ($numero % 2 == 0) {
+        echo "Par";
+    }
+6.
+    O ponto e vírgula indica o fim de uma instrução. Sem ele, ocorre um erro de sintaxe
+7. 
+    O switch compara uma variável com vários casos e executa o bloco correspondente.
+    Exemplo:
+
+    
+    switch ($dia) {
+        case 1:
+            echo "Domingo";
+            break;
+        default:
+            echo "Dia inválido";
+    }
+8.
+Nomes significativos melhoram a legibilidade e a manutenção do código.
+9.
+    Usando o operador .:
+
+    
+    $nomeCompleto = $nome . " " . $sobrenome;
+10.
+Variáveis booleanas representam true ou false.
+Exemplo:
+
+php
+$logado = true;
+if ($logado) {
+    echo "Usuário logado";
+}
+
 */
 ?>

@@ -1,9 +1,7 @@
 <?php
-$num = 5;
+$num = 2;
 
-for ($i=0; $i < $num; $i++) { 
-    $res = $num % 2;
-}
+$res = $num % 2 ;
 
 if ($res == 0) 
 {

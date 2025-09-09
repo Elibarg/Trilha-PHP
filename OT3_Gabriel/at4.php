@@ -1,5 +1,20 @@
 <?php
-$cor = array("Verde","vermelho");
-array_push($cor,"azul","preto","branco");
-print_r($cor);
+    $dados = 
+    [
+        [
+            "nome" => "João",
+            "idade" => 30,
+        ],
+        [
+            "nome" => "Maria",
+            "idade" => 20
+        ]
+    ];
+    foreach ($dados as $linha) {
+       foreach ($linha as $valor) {
+        echo "$valor\n";
+       }
+    }  
+        
+    
 ?>

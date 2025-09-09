@@ -1,7 +1,7 @@
 <?php
 
-function primo($n) {
-    $n = 6;
+function primo() {
+    $n = 11;
     $divisores = 0;
   
   for($i=2; $i<$n; $i++)
@@ -18,7 +18,7 @@ function primo($n) {
    
     
 }
-$a = primo(1);
+$a = primo();
 echo $a;
 
 

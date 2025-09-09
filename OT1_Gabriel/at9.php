@@ -1,10 +1,10 @@
 <?php
-$num =-1;
+$num =0;
 if ($num >0) {
-    echo "a";
+    echo "maior que 0";
 }  else if ($num <0) {
-    echo "b";
+    echo "menor que 0";
 }else {
- echo "c";
+ echo "e 0";
 }
 ?>

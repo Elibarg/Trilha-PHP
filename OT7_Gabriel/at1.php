@@ -1,12 +1,15 @@
 <?php
-class produto {
-    public $preco;
+class Produto {
     public $nome;
-}
-$produto1 = new produto();
-$produto1 ->preco = 2;
-$produto1 ->nome = "a";
-echo $produto1 ->preco;
-echo $produto1 ->nome;
+    public $preco;
 
+    public function exibir() {
+        return "Produto: $this->nome, Preço: R$ $this->preco";
+    }
+}
+
+$produto = new Produto();
+$produto->nome = "Notebook";
+$produto->preco = 2500;
+echo $produto->exibir();
 ?>

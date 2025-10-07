@@ -1,14 +1,17 @@
 <?php
-class contaB{
- private $Conta = "";
- public function depositar($senha){
-    $this->Conta = $senha;
- }
- public function consultarConta(){
-    return "Conta: $this->Conta ";
- }
-};
-$conta = new contaB();
+class Cliente {
+    private $senha;
 
-$conta->depositar("rer");
-echo $conta->consultarConta();
+    public function setSenha($senha) {
+        $this->senha = password_hash($senha, PASSWORD_DEFAULT);
+    }
+
+    public function verificarSenha($senha) {
+        return password_verify($senha, $this->senha);
+    }
+}
+
+$cliente = new Cliente();
+$cliente->setSenha("123456");
+echo $cliente->verificarSenha("123456") ? "Senha correta" : "Senha incorreta";
+?>

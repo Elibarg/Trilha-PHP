@@ -1,0 +1,19 @@
+1. Modos de abertura de arquivos
+"r": Somente leitura. Ideal para ler dados.
+
+"w": Escrita (sobrescreve). Usado para criar ou limpar arquivos.
+
+"a": Escrita (adiciona ao final). Ideal para logs.
+
+2. Diferença entre file() e file_get_contents()
+file(): Lê o arquivo e retorna um array com cada linha.
+
+file_get_contents(): Lê o arquivo e retorna uma string com todo o conteúdo.
+
+3. Manipulação de arquivos JSON
+Leitura: file_get_contents("dados.json")
+
+Decodificação: json_decode($conteudo, true)
+
+4. Importância do flock()
+Garante que apenas um processo por vez acesse o arquivo, evitando corrupção em ambientes concorrentes.

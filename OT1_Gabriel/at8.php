@@ -7,6 +7,6 @@ if ($nomeCorreto == $nomeCorreto && $senhaCorreta == $senhaDigitada) {
     echo " boas-vindas";
 }else
 {
-    echo "a";
+    echo "Credenciais inválidas.";
 }
 ?>

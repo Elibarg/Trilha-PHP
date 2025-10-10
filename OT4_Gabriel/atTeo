@@ -1,0 +1,20 @@
+11/09/2025
+Gabriel Elesbão
+
+1. Diferença entre arrays indexados e associativos
+Indexados: Usam números como índices.
+
+Associativos: Usam chaves personalizadas (strings).
+
+2. Vantagens das funções de manipulação de arrays
+Reutilização: Evitam retrabalho.
+
+Eficiência: Otimizam operações comuns.
+
+3. Arrays multidimensionais vs. bidimensionais
+Multidimensionais: Podem ter mais de duas dimensões.
+
+Bidimensionais: São um caso específico de duas dimensões (ex.: matriz).
+
+4. Uso prático do sort()
+Ordenar uma lista de nomes ou números para exibição ou busca.

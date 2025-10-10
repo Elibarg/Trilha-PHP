@@ -1,14 +1,16 @@
 <?php
  function dividir($a,$b){
-    if($b == 0)
+    if($b == 0)  // Verifica se divisor é zero
     {
-        throw new Exception("Divisão por 0");
+        throw new Exception("Divisão por 0");  // Lança exceção
     }
-    return $a / $b;
+    return $a / $b;  // Retorna resultado da divisão
  }
- try {
-    echo dividir(10,0);
- } catch (Exception $e) {
-    echo $e->getMessage();
+ 
+ try {  // Tenta executar o código que pode gerar erro
+    echo dividir(10,0);  // Chama função com divisor zero
+ } catch (Exception $e) {  // Captura a exceção se ocorrer
+    echo $e->getMessage();  // Exibe mensagem de erro
  }
+ // OUTPUT: "Divisão por 0"
 ?>

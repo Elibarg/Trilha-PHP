@@ -1,0 +1,25 @@
+08/09/2025
+Gabriel Elesbão
+
+1. Diferença entre for e while
+for: Usado quando se sabe o número de iterações.
+
+while: Usado quando a condição de parada é desconhecida no início.
+
+2. Uso do do-while
+Garante que o bloco seja executado pelo menos uma vez.
+Exemplo: Validação de entrada do usuário.
+
+3. foreach com arrays associativos
+Percorre chaves e valores de um array associativo.
+Exemplo:
+foreach ($pessoa as $chave => $valor) {
+    echo "$chave: $valor";
+}
+
+4. Lançar uma exceção
+Significa sinalizar um erro ou condição excepcional usando throw.
+Útil para tratar falhas de forma controlada.
+
+5. Hierarquia de exceções
+Permite criar exceções específicas para diferentes tipos de erro, melhorando a clareza e a manutenção.

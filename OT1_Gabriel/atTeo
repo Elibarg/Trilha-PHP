@@ -1,9 +1,5 @@
-<?php
-/*
 25/08/2025
 Gabriel Elesbão
-*/
-/*
 1. 
     variáveis do tipo string armazenam texto (sequências de 
     caracteres alfanuméricos), enquanto 
@@ -68,5 +64,3 @@ if ($logado) {
     echo "Usuário logado";
 }
 
-*/
-?>

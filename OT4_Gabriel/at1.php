@@ -1,11 +1,18 @@
 <?php
-  $a = array(
+  $a = array(  // Cria array associativo
     "título" => "ab",
-    "autor" => "cv",
+    "autor" => "cv", 
     "ano" => "34"
 );
-$a['editora'] = "aev";
-foreach ($a as $key => $value) {
-    echo "$key  $value\n";
+
+$a['editora'] = "aev";  // Adiciona novo elemento ao array
+
+foreach ($a as $key => $value) {  // Itera sobre chave e valor
+    echo "$key  $value\n";  // Exibe cada par chave-valor
 }
+// OUTPUT:
+// título  ab
+// autor  cv  
+// ano  34
+// editora  aev
 ?>

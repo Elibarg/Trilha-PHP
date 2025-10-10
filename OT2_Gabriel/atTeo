@@ -1,0 +1,32 @@
+01/09/2025
+Gabriel Elesbão
+
+1. Funções predefinidas
+São funções já incluídas no PHP, como strlen(), count(), date().
+Exemplo: strlen("PHP") retorna 3.
+
+2. Importância dos parâmetros em funções
+Permitem que a função receba valores externos para processamento.
+Exemplo:
+
+function saudacao($nome) {
+    return "Olá, $nome!";
+}
+
+3. Diferença entre funções personalizadas e predefinidas
+Personalizadas: Criadas pelo programador para tarefas específicas.
+
+Predefinidas: Já existem no PHP para operações comuns.
+
+4. Funções para manipulação de strings
+strlen(): Retorna o comprimento da string.
+
+strtoupper(): Converte para maiúsculas.
+
+substr(): Retorna parte da string.
+
+5. Função array_push()
+Adiciona um ou mais elementos ao final de um array.
+Exemplo:
+$cores = ["azul"];
+array_push($cores, "vermelho");

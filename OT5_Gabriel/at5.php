@@ -1,3 +1,6 @@
+<!-- 5. Crie um script que leia um arquivo chamado "sensivel.txt", criptografe o conteúdo e
+salve o resultado em um novo arquivo chamado "sensivel_criptografado.txt". -->
+
 <?php
 // Lê todo o conteúdo do arquivo para uma string
 $conteudo = file_get_contents("sensivel.txt");

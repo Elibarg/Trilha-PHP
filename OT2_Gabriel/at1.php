@@ -1,3 +1,6 @@
+<!-- 1. Crie uma função personalizada em PHP que calcule a média ponderada de
+três notas (pesos: 2, 3, 5). -->
+
 <?php
 function media() {
     // Define os pesos das notas

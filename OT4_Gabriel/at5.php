@@ -1,3 +1,6 @@
+<!-- 5. Crie dois arrays indexados com números. Concatene os dois arrays em um único
+array -->
+
 <?php
  $a = array(1);  // Array com um elemento
  $b = array(2);  // Array com um elemento

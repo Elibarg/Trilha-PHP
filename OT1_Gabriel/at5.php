@@ -1,3 +1,6 @@
+<!-- 5. Crie um array com nomes de três cores diferentes. Utilize um loop foreach para
+percorrer o array e exibir cada cor. -->
+
 <?php
   $array = array(
         "cor1" => "verde",

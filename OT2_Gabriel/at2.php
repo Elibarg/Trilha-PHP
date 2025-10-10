@@ -1,6 +1,9 @@
+<!-- 2. Implemente uma função personalizada que receba um número como
+parâmetro e determine se é um número primo. -->
+
 <?php
 function primo() {
-    $n = 11;        // Número a ser verificado
+    $n = 12;        // Número a ser verificado
     $divisores = 0; // Contador de divisores
     
     // Verifica divisores de 2 até n-1

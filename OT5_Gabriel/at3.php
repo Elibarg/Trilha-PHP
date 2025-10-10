@@ -1,3 +1,6 @@
+<!-- 3. Crie um script que adicione uma nova linha com dados fictícios em um arquivo CSV
+existente. -->
+
 <?php
 $novaLinha = ["2024-07-20", "Produto X", 299.90];  // Dados da nova linha
 

@@ -1,5 +1,10 @@
+<!-- 2. Implemente um loop while que conte o número de vezes que um usuário digita a palavra
+"PHP" em um prompt. 
+digite no terminal php OT3_Gabriel/at2.php
+-->
+
 <?php
-$count = 0;  // Contador para a palavra "PHP"
+$count = 0;  // Contador para a palavra 
 
 while (true) {  // Loop infinito
     // Lê a entrada do usuário
@@ -11,7 +16,7 @@ while (true) {  // Loop infinito
     }
 
     // Verifica se digitou "PHP"
-    if ($input === "PHP") {
+    if ($input === "php") {
         $count++;  // Incrementa o contador
     }
 }

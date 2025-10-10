@@ -1,3 +1,6 @@
+<!-- 6. Desenvolva um código que leia um arquivo de texto chamado "paragrafo.txt" e conte
+o número de palavras contidas nele. Exiba o resultado. -->
+
 <?php
 // Lê todo o conteúdo do arquivo de texto
 $texto = file_get_contents("paragrafo.txt");

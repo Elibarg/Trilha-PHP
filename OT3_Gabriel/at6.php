@@ -1,3 +1,6 @@
+<!-- 6. Desenvolva um script que utilize um loop for para imprimir os números pares de 2 a 10, sem
+incluir o 6. -->
+
 <?php
    for($i = 2; $i <=10; $i+=2)   // Loop de 2 a 10, incrementando de 2 em 2
    {

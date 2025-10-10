@@ -1,3 +1,7 @@
+<!-- 6. Crie uma matriz tridimensional representando uma coleção de livros, onde cada livro
+é representado por um array associativo. Utilize a função count() para contar o
+número total de livros na coleção. -->
+
 <?php
 $biblioteca = [  // Array multidimensional (array de arrays de arrays)
     [  // Primeira prateleira

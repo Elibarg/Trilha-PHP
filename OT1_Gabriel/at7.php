@@ -1,6 +1,10 @@
+<!-- 7. Escreva um programa que receba o dia da semana como entrada e exiba uma
+mensagem correspondente (por exemplo, "Hoje é dia de trabalho!").
+ -->
+
 <?php
 
-$dia = "Segunda";  // Dia da semana a ser verificado
+$dia = "Sábado";  // Dia da semana a ser verificado
 
 // Switch para verificar o dia da semana
 switch ($dia) {

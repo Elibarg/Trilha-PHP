@@ -1,3 +1,8 @@
+<!-- 3. Utilize um loop do-while para solicitar que o usuário insira uma senha até que ela atenda a
+critérios mínimos de segurança.
+digite no terminal php OT3_Gabriel/at3.php 
+-->
+
 <?php
 do {  // Executa pelo menos uma vez
     $senha = readline("Digite uma senha (mínimo 8 caracteres e pelo menos 1 número): ");

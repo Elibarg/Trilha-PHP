@@ -1,3 +1,6 @@
+<!-- 3. Crie uma matriz bidimensional representando uma tabela de multiplicação de 5x5.
+Exiba o resultado da multiplicação de 3 por 4. -->
+
 <?php
  $a = array (  // Array bidimensional (matriz 5x3)
     array(1,2,3),    // Linha 0: [1,2,3]

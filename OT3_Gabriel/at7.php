@@ -1,3 +1,6 @@
+<!-- 7.  Crie um script que tente abrir um arquivo específico. Utilize tratamento de exceção para lidar
+com a situação em que o arquivo não existe. -->
+
 <?php
  try {
    $arquivo = fopen("arquivo_inexistente.txt","r");  // Tenta abrir arquivo

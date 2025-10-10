@@ -1,3 +1,6 @@
+<!-- 2. Crie um array indexado com nomes de cinco países. Remova o terceiro país do
+array. -->
+
 <?php
 $a = ["Rússia","Canadá","China","Estados Unidos","Brasil"];
 

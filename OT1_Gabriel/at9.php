@@ -1,3 +1,6 @@
+<!-- 9. Utilize a estrutura de controle if para determinar se um número é positivo, negativo
+ou zero. -->
+
 <?php
 $num =0;
 if ($num >0) {

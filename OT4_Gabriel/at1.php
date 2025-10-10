@@ -1,3 +1,6 @@
+<!-- 1. Crie um array associativo representando um livro com as chaves "título", "autor" e
+"ano". Adicione a informação da editora ao array. -->
+
 <?php
   $a = array(  // Cria array associativo
     "título" => "ab",

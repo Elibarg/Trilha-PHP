@@ -1,3 +1,6 @@
+<!-- 3. Utilize uma função predefinida do PHP para inverter a ordem das palavras
+em uma frase. -->
+
 <?php
 function cor(){
     $cor = array("Verde","vermelho");  // Cria array inicial

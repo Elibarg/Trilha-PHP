@@ -1,3 +1,6 @@
+<!-- 4. Crie um array multidimensional e use um loop foreach para exibir cada elemento na forma de
+uma tabela HTML. -->
+
 <?php
     $dados =  // Array multidimensional (array de arrays)
     [

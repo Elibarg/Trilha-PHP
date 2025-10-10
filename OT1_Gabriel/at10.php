@@ -1,5 +1,8 @@
+<!-- 10. Crie uma função que receba dois números como parâmetros e retorne o resultado
+da multiplicação. Chame essa função e exiba o resultado. -->
+
 <?php
-$num1 = 4;
+$num1 = 9;
 $num2 = 2;
 
 function calculo($num1,$num2) {

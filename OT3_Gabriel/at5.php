@@ -1,3 +1,6 @@
+<!-- 5. Implemente uma função que aceite dois números como parâmetros e retorne a divisão deles.
+Utilize tratamento de exceção para lidar com a divisão por zero. -->
+
 <?php
  function dividir($a,$b){
     if($b == 0)  // Verifica se divisor é zero

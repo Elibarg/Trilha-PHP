@@ -1,3 +1,6 @@
+<!-- 2. Abra um arquivo CSV contendo informações de vendas. Calcule e exiba a média de
+vendas a partir desses dados. -->
+
 <?php
 $vendas = [];  // Array para armazenar valores de vendas
 
@@ -16,5 +19,4 @@ $media = array_sum($vendas) / count($vendas);
 
 // Exibe resultado formatado com 2 casas decimais
 echo "Média de vendas: R$ " . number_format($media, 2);
-// Exemplo: "Média de vendas: R$ 150.75"
 ?>

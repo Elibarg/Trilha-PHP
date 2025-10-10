@@ -1,3 +1,6 @@
+<!-- 1. Crie um array associativo em PHP com informações de um produto. Escreva esse
+array em um arquivo JSON chamado "produto.json" -->
+
 <?php
 $produto = [  // Array associativo com dados do produto
     "Nome"=>"Notebook",

@@ -13,6 +13,7 @@ do {  // Executa pelo menos uma vez
     if (strlen($senha) < 8) {
         echo "• Mínimo 8 caracteres necessários\n";
         $valida = false;  // Marca como inválida
+        // strlen() retorna o tamanho de uma string
     }
     
     // Verifica se contém pelo menos 1 número usando expressão regular

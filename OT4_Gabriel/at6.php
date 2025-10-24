@@ -16,6 +16,7 @@ $biblioteca = [  // Array multidimensional (array de arrays de arrays)
 $total = 0;  // Inicializa contador
 foreach ($biblioteca as $prateleira) {  // Itera sobre cada prateleira
     $total += count($prateleira);  // Soma quantidade de livros na prateleira
+//-O foreach  é uma estrutura de repetição usada para percorrer todos os elementos de um array
 }
 echo "Total de livros: $total";  // Exibe resultado: "Total de livros: 3"
 ?>

@@ -9,6 +9,7 @@ com a situação em que o arquivo não existe. -->
    }
  } catch (exception $e) {
    echo $e->getMessage();  // Captura e exibe a mensagem de erro
+   //- getMessage serve para obter a mensagem de erro lançada por uma exceçã
  }
  // OUTPUT: "arquivo não encontrado"
 ?>

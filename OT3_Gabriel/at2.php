@@ -13,6 +13,7 @@ while (true) {  // Loop infinito
     // Se o usuário quiser encerrar
     if (strtolower($input) === "sair") {  // Converte para minúsculas e verifica
         break;  // Sai do loop
+        // -strtolower() do PHP é usada para converter todos os caracteres de uma string para letras minúsculas.
     }
 
     // Verifica se digitou "PHP"

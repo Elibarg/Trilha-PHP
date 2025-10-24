@@ -6,6 +6,8 @@ Utilize tratamento de exceção para lidar com a divisão por zero. -->
     if($b == 0)  // Verifica se divisor é zero
     {
         throw new Exception("Divisão por 0");  // Lança exceção
+        //- throw new é usado para lançar (throw) uma exceção. É parte do sistema de tratamento de exceções, 
+        //- que permite lidar com erros de forma controlada, ao invés de simplesmente quebrar o script.
     }
     return $a / $b;  // Retorna resultado da divisão
  }

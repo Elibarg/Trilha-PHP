@@ -19,4 +19,8 @@ $media = array_sum($vendas) / count($vendas);
 
 // Exibe resultado formatado com 2 casas decimais
 echo "Média de vendas: R$ " . number_format($media, 2);
+
+//-array_sum() Soma todos os valores numéricos de um array.
+//-number_format()Formata um número para exibição, adicionando separadores de milhar e decimais
+//-count()Conta o número de elementos em um array (ou propriedades de um objeto que implementa
 ?>

@@ -11,7 +11,7 @@ $produto = [  // Array associativo com dados do produto
 // Converte array para JSON e salva em arquivo
 file_put_contents("produto.json", json_encode($produto,JSON_PRETTY_PRINT));
 // JSON_PRETTY_PRINT formata o JSON com indentação para melhor leitura
-
+//-A função file_put_contents() em PHP serve para criar ou escrever dados em um arquivo.
 echo "Arquivo criado";  // Confirmação de sucesso
 
 // Conteúdo do arquivo produto.json:

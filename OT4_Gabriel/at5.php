@@ -9,4 +9,7 @@ array -->
  // $c = [1, 2]
 
  print_r($c)  // Exibe estrutura do array: Array ( [0] => 1 [1] => 2 )
+
+ //-array_merge() Função para unir (mesclar) dois ou mais arrays.
+ //-print_r() Função usada para imprimir o conteúdo de variáveis (principalmente arrays e objetos) de forma legível.
 ?>

@@ -5,7 +5,7 @@ array. -->
 $a = ["Rússia","Canadá","China","Estados Unidos","Brasil"];
 
 unset($a[2]);  // Remove o elemento no índice 2 ("China")
-
+//- unset() serve para destruir (remover) uma variável, elemento de array
 foreach ($a as $key => $value) {
     echo "$key  $value\n";  // Exibe índice e valor
 }

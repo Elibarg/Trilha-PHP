@@ -13,6 +13,7 @@ file_put_contents("sensivel_criptografado.txt", $criptografado);
 
 echo "Arquivo criptografado criado!";
 
-// IMPORTANTE: Base64 não é criptografia, apenas codificação!
-// Qualquer pessoa pode decodificar com base64_decode()
+// - A função file_put_contents() em PHP serve para criar ou escrever dados em um arquivo.
+// - file_get_contents() Essa função lê o conteúdo de um arquivo (ou até uma URL, se permitido) e retorna como string.
+// - base64_encode() Essa função codifica dados binários (como imagens, PDFs, etc.) em texto Base64.
 ?>

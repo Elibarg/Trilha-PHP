@@ -4,6 +4,7 @@ exiba uma mensagem de boas-vindas se as credenciais estiverem corretas. -->
 <?php
 $nomeCorreto = "jo";
 $senhaCorreta =43;
+
 $nomeDigitada = "jo";
 $senhaDigitada =43;
 if ($nomeCorreto == $nomeCorreto && $senhaCorreta == $senhaDigitada) {

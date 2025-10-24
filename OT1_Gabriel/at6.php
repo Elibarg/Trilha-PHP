@@ -3,6 +3,8 @@ caracteres, incluindo letras maiúsculas, minúsculas, números e caracteres
 especiais). -->
 
 <?php
+
+
 $senha = "Senha123#";  // Senha a ser verificada
 
 // Verifica se a senha atende a todos os critérios:
@@ -11,6 +13,7 @@ $senha = "Senha123#";  // Senha a ser verificada
 // - Pelo menos uma letra minúscula
 // - Pelo menos um número
 // - Pelo menos um caractere especial
+// - A função preg_match() do PHP serve para procurar um padrão (expressão regular) dentro de uma string.
 if (strlen($senha) >= 8 && 
     preg_match('/[A-Z]/', $senha) && 
     preg_match('/[a-z]/', $senha) && 
@@ -20,9 +23,5 @@ if (strlen($senha) >= 8 &&
 } else {
     echo "Senha fraca";  // Não atende a algum requisito
 }
-// A preg_match()função em PHP realiza uma correspondência de expressão regular em uma string. 
-// Ela busca subjectem uma string específica um padrão definido por patternela e 
-// retorna 1 se uma correspondência for encontrada, 
-// 0 se nenhuma correspondência for encontrada e falsese ocorrer um erro 
 ?>
 
